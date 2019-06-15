@@ -7,7 +7,7 @@
  * Released under the MIT License
  * ============================================================ */
 
-namespace Binance;
+namespace UnsparingBinance;
 class API {
 	protected $base = "https://api.binance.com/api/", $wapi = "https://api.binance.com/wapi/", $api_key, $api_secret;
 	protected $depthCache = [];
